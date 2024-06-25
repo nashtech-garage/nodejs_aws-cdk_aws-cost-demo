@@ -138,6 +138,9 @@ export class ServerResources extends Construct {
             case 'xlarge4':
                 instanceSize = InstanceSize.XLARGE4;
                 break;
+            case 'medium':
+                instanceSize = InstanceSize.MEDIUM;
+                break;
             default:
                 instanceSize = InstanceSize.LARGE;
         }

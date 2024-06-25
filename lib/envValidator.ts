@@ -3,6 +3,7 @@ import { EC2WebAppProps } from './ec2-instance';
 export enum InstanceSize {
   'MICRO' = 'micro',
   'LARGE' = 'large',
+  'MEDIUM' = 'medium',
   'XLARGE' = 'xlarge',
   'XLARGE2' = 'xlarge2',
   'XLARGE4' = 'xlarge4',
